@@ -1,66 +1,69 @@
-# 🚀 Binus Algorithms & Programming (COMP6047 / COMP6048) Course Companion
+# 🚀 Binus Algorithms & Programming Course Companion (Session-Based)
 
-Welcome to the ultimate **Algorithms & Programming** course summary repository! This repository is designed specifically for **Binusian students** taking COMP6047 or COMP6048, as well as anyone looking to master the fundamentals of programming, C, data structures, and algorithms.
+Welcome to the ultimate **Algorithms & Programming** course summary repository! This repository follows the session-based structure of the curriculum (inspired by your senior's format) and is designed specifically for **Binusian students** and anyone looking to master programming fundamentals.
 
-This guide provides structured notes, troubleshooting advice, compilable C code examples, and comparisons with 10+ other programming languages. It is designed to be easily read, cloned, and shared with your juniors.
+This guide provides structured notes, setup tips, compilable C code examples (the core language of the course), and comparisons with other programming languages alongside advanced topics from **Harvard CS50** and **MIT 6.006**.
 
 ---
 
 ## 🛠️ Getting Started & IDE Setup Guides
-Before writing C code, make sure you configure your development environment. We have prepared step-by-step guides for the two most popular tools:
-*   [**Dev-C++ Setup Guide (Recommended for Binus Exams)**](dev_c_setup.md) — Learn how to set up the default compiler, enable modern C standards (`-std=c11`), and fix the "Source file not compiled" error.
+Before writing C code, configure your development environment:
+*   [**Dev-C++ Setup Guide (Recommended for Binus Exams)**](dev_c_setup.md) — Learn how to set up the default compiler, enable modern C standards (`-std=c11`), and fix common compilation hangs.
 *   [**VS Code C Setup Guide**](vscode_c_setup.md) — Learn how to install MSYS2 GCC, add it to system Environment Variables, and configure tasks for compilation.
 
 ---
 
-## 📚 Course Modules & Syllabus
+## 📚 Session-Based Course Modules
 
-### [Module 1: C Basics & Syntax](1.Introducing%20to%20Algorithm%20and%20Programming/README.md)
-*   **Concepts**: Variables, Data types, standard input/output (`printf`, `scanf`), Arithmetic & Logical operators, Conditional Statements (`if-else`, `switch-case`), and Loop Structures (`for`, `while`, `do-while`).
-*   **C Code Examples**:
-    *   [Hello World!](1.Introducing%20to%20Algorithm%20and%20Programming/HelloWorld%21.c) — Simple console printing.
-    *   [Variables Demo](1.Introducing%20to%20Algorithm%20and%20Programming/Variables.c) — Using correct formatting specifiers (`%d`, `%c`, `%f`, `%s`).
-    *   [Control Flow Demo](1.Introducing%20to%20Algorithm%20and%20Programming/control_flow.c) — Conditionals, loops, and nested loop patterns.
+### 📂 [Session 01: Input and Output](Session_01_InputAndOutput/README.md)
+*   **Concepts**: Variables, data types, console printing (`printf`), and user input (`scanf`).
+*   **Multi-Language Syntax Basics**: Compare this basic setup across 11 languages (C, C++, Python, Java, Kotlin, Go, JavaScript, C#, Swift, Rust, PHP).
 
-### [Module 2: Pointers, Arrays, and Memory](2.Pointers%20and%20Memory/README.md)
-*   **Concepts**: Pointers, Address-of operator (`&`), Dereference operator (`*`), 1D and 2D arrays, Pointer arithmetic, Stack vs. Heap memory, and Dynamic Memory Allocation (`malloc`, `calloc`, `realloc`, `free`).
-*   **C Code Examples**:
-    *   [Pointers Basics](2.Pointers%20and%20Memory/pointers_basics.c) — Swapping numbers and printing addresses.
-    *   [Memory Allocation](2.Pointers%20and%20Memory/memory_allocation.c) — Creating dynamic arrays and preventing memory leaks.
+### 📂 [Session 02: Arithmetic and Operators](Session_02_ArithmeticAndOperators/README.md)
+*   **Concepts**: Operators (arithmetic, relational, logical), assignment shorthand, and order of operations (precedence).
+*   **Languages**: C and Python.
 
-### [Module 3: Structures & Data Structures](3.Data%20Structures/README.md)
-*   **Concepts**: Defining `struct`, `typedef`, Pointer to structures (`ptr->member`), Struct arrays, and Single Linked List nodes.
-*   **C Code Examples**:
-    *   [Structs Demo](3.Data%20Structures/structs.c) — Struct records and calculations.
-    *   [Linked List Implementation](3.Data%20Structures/linked_list.c) — Insert (Head, Tail, Mid) and Delete (Head, Tail, Mid) operations.
+### 📂 [Session 03: Selection](Session_03_Selection/README.md)
+*   **Concepts**: Branching structures, standard `if-else`, nested checks, and menu-driven `switch-case` blocks.
+*   **Languages**: C and Python.
 
-### [Module 4: Sorting & Searching](4.Sorting%20and%20Searching/README.md)
-*   **Concepts**: Bubble Sort, Selection Sort, Insertion Sort, Linear Search, and Binary Search (recursive and iterative).
-*   **C Code Examples**:
-    *   [Sorting Algorithms](4.Sorting%20and%20Searching/sorting.c) — Visual traces of sort operations.
-    *   [Searching Algorithms](4.Sorting%20and%20Searching/searching.c) — Fast index searching.
+### 📂 [Session 04: Repetition](Session_04_Repetition/README.md)
+*   **Concepts**: Iterations, `for`, `while`, `do-while` loops, infinite loops, and nested loop patterns (drawing shapes).
+*   **Languages**: C and Python.
 
-### [Module 5: File Processing & File System](5.File%20Processing/README.md)
-*   **Concepts**: Read/write operations, Text files vs. Binary files, file pointers (`FILE *`), functions like `fopen`, `fclose`, `fprintf`, `fscanf`, `fread`, `fwrite`, and stream navigation (`fseek`, `ftell`, `rewind`).
-*   **C Code Examples**:
-    *   [Text File Handling](5.File%20Processing/text_files.c) — Managing user log logs in txt format.
-    *   [Binary File Database](5.File%20Processing/binary_files.c) — Struct serialization for CRUD mock databases.
+### 📂 [Session 05&06: Array and Pointer](Session_05%2606_ArrayAndPointer/README.md)
+*   **Concepts**: Contiguous blocks (1D/2D arrays), pointer syntax (`&`, `*`), pointer arithmetic, stack vs heap, and dynamic memory allocation (`malloc`, `realloc`, `free`).
+*   **Languages**: C and C++.
 
-### [Module 6: Advanced Concepts & "What's Next?"](6.Advanced%20Concepts/README.md)
-*   **Concepts**: Recursion vs Iteration, Call Stacks, Tree introductions, Time and Space Complexity (Big O), and how to transition from the basics to Harvard CS50/MIT style programming.
-*   **C Code Examples**:
-    *   [Recursion & Complexity](6.Advanced%20Concepts/recursion_and_complexity.c) — Factorials, Fibonacci, and trace logs.
+### 📂 [Session 07: Functions and Recursion](Session_07_FunctionsAndRecursion/README.md)
+*   **Concepts**: Variable scopes, call-by-value vs. call-by-reference (using pointers), recursive call stacks, base cases, and stack overflows.
+*   **Languages**: C, C++, and Python.
 
-### [Module 7: Multi-Language Basics (11 Languages)](7.Multi%20Language%20Basics/README.md)
-*   **Concepts**: Learn how variables, input/output, and control loops are written in other programming languages! Great for widening your perspective.
-*   **Languages Included**: C, C++, Python, Java, Kotlin, Go, JavaScript, C#, Swift, Rust, PHP.
+### 📂 [Session 08: Sorting](Session_08_Sorting/README.md)
+*   **Concepts**: Simple sorts: Bubble Sort, Selection Sort, and Insertion Sort.
+*   **CS50/MIT Bonus**: Advanced divide-and-conquer sorting (Merge Sort and Quick Sort).
+*   **Languages**: C and C++.
+
+### 📂 [Session 09: Searching](Session_09_Searching/README.md)
+*   **Concepts**: Sequential Linear Search vs. split-based Binary Search (iterative and recursive).
+*   **Languages**: C and C++.
+
+### 📂 [Session 10: File](Session_10_File/README.md)
+*   **Concepts**: File pointer streams (`FILE *`), file opening modes (`r`, `w`, `a`), text line parsing, and binary struct serialization database (`fwrite`, `fread`, `fseek`).
+*   **Languages**: C and C++.
+
+### 📂 [Session 11: Data Structures](Session_11_DataStructures/README.md)
+*   **Concepts**: Custom data records (`struct`, `typedef`, pointer arrow operator `->`) and building dynamic Singly Linked Lists (inserting/deleting/freeing nodes).
+*   **Languages**: C and C++.
+
+### 📂 [Session 12: Advanced Concepts (CS50 / MIT)](Session_12_AdvancedConcepts/README.md)
+*   **Concepts**: Introduction to Trees (Binary Search Trees, AVL Trees), Graphs, time complexity analysis (Big O notation), real-world uses, and your roadmap for after this course.
+*   **Languages**: C, C++, and Python.
 
 ---
 
-## 🎯 Why we learn this & How to help juniors
-Algorithms and programming teach you computational thinking. Binus University's COMP6047/6048 focus on C forces you to manage memory directly, which builds a strong mental model of how computers work underneath the hood. 
-
-Encourage juniors to:
+## 🎯 How to Help Your Juniors
+Encourage them to:
 1.  **Clone this repo**: `git clone https://github.com/YOUR_USERNAME/AlgorithmAndProgramming.git`
 2.  **Follow the IDE guide** first so they do not get stuck trying to compile C code.
-3.  **Read the comments**: The C source files in this repository are written with detailed explanations of how memory shifts and variables change.
+3.  **Read the comments**: All source files are heavily annotated to explain logic, memory addresses, and variable modifications.
