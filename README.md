@@ -4,6 +4,7 @@ Welcome to the ultimate **Algorithms & Programming** course summary repository! 
 
 This guide provides structured notes, setup tips, compilable C code examples (the core language of the course), and comparisons with other programming languages alongside advanced topics from **Harvard CS50** and **MIT 6.006**.
 
+Credit Ecclesy & Himti Responsi [Stanley] and [Justin] 
 ---
 
 ## 🛠️ Getting Started & IDE Setup Guides
